@@ -1,0 +1,45 @@
+# Python Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+poetry.lock
+Pipfile.lock
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+
+# FastAPI specific
+.pytest_cache
